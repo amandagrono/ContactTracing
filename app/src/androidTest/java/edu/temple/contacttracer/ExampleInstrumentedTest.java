@@ -1,4 +1,4 @@
-package edu.temple.contacttracingtrytwo;
+package edu.temple.contacttracer;
 
 import android.content.Context;
 

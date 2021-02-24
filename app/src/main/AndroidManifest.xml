@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.temple.contacttracingtrytwo">
+    package="edu.temple.contacttracer">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContactTracingTryTwo">
         <service
-            android:name=".MyLocationService"
+            android:name="edu.temple.contacttracer.MyLocationService"
             android:enabled="true"
             android:exported="false" />
         <activity android:name=".MainActivity">

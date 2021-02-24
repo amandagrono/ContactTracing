@@ -1,4 +1,4 @@
-package edu.temple.contacttracingtrytwo;
+package edu.temple.contacttracer;
 
 import org.junit.Test;
 
